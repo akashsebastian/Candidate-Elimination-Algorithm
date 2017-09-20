@@ -19,9 +19,9 @@ int main(){
     values_of_attributes[num_of_attributes].resize(number_of_values[num_of_attributes]);
     for(int i=0;i<number_of_values[num_of_attributes];i++)
         cin>>values_of_attributes[num_of_attributes][i];
-    for(int i=0;i<=num_of_attributes;i++){
+    /*for(int i=0;i<=num_of_attributes;i++){
         for(int j=0;j<number_of_values[i];j++)
             cout<<values_of_attributes[i][j];
-    }
+    }*/
     return 0;
 }
