@@ -54,6 +54,7 @@ int main(){
     ifstream in("zoo.data.txt");
     string str;
     int test=1;
+    //Loop over the training data
     while(getline(in,str)){
         int length=str.size(),first=0,offset=0,counter=0;
         string temp_str;
